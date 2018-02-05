@@ -5,5 +5,5 @@
         android:title="重置密码"/>
     <item
         android:id="@+id/remove_item"
-        android:title="Remove"/>
+        android:title="退出"/>
 </menu>

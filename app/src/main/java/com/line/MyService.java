@@ -91,7 +91,7 @@ public class MyService extends Service {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    socket = new Socket("192.168.1.4", 7400);
+                    socket = new Socket("119.23.110.11", 7400);
                     writer = new BufferedWriter( new OutputStreamWriter(
                             socket.getOutputStream(), "utf-8" ) );
                     reader = new BufferedReader( new InputStreamReader(

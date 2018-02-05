@@ -97,7 +97,7 @@ public class mainactivity extends AppCompatActivity {
                         .create().show();
             break;
             case R.id.remove_item:
-                Toast.makeText(mainactivity.this,"Click Remove",Toast.LENGTH_SHORT).show();
+                finish();
                 break;
             default:
         }
